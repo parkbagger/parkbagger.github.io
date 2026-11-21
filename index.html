@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Park Bagger</title>
+<meta name="description" content="An iPhone app that lists every park near the places you spend your time, so you can visit them all and rate each one.">
+<meta name="theme-color" content="#F5F3EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#141814" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="mark.svg">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<meta property="og:title" content="Park Bagger">
+<meta property="og:description" content="Bag every park near the places you spend your time.">
+<meta property="og:image" content="https://parkbagger.app/img/icon-512.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Instrument+Sans:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hero">
+  <div class="wrap">
+    <header class="top">
+      <img class="mark" src="mark.svg" alt="">
+      <div class="word"><span>Park</span> Bagger</div>
+    </header>
+    <p class="lede">Bag every park near the places you spend your time.</p>
+    <p class="sub">Peak baggers collect summits. Park Bagger does the same for parks. Save home, work or school, pick how far you'll go from each, and the app lists every park inside that range. Visit one, rate it, and it's bagged.</p>
+    <p class="get"><span class="soon">Coming soon to the App Store</span></p>
+  </div>
+</div>
+
+<main>
+  <div class="wrap">
+
+    <section>
+      <p class="eyebrow">How it works</p>
+      <h2>Pick a place, set a range, start bagging</h2>
+      <ul class="steps">
+        <li><span class="n">01</span><span><b>Save your places</b>Add home, work, school, the gym, or anywhere you spend time. Search an address or use where you are now.</span></li>
+        <li><span class="n">02</span><span><b>Set a limit</b>Choose a travel time, like a 15 minute walk or a 10 minute bike ride, or a plain distance. Each place gets its own.</span></li>
+        <li><span class="n">03</span><span><b>See every park inside it</b>The app lists each park in range on a map. Sort by nearest, largest, unbagged or best rated.</span></li>
+        <li><span class="n">04</span><span><b>Bag it</b>When you visit, mark it bagged and rate it with stars or a thumbs up or down. If you're standing in the park, the app can confirm the visit by GPS.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <p class="eyebrow">All places</p>
+      <h2>Your places add up to one area</h2>
+      <p>Switch to All places to combine them. A park inside two ranges counts once. The app tracks two totals: how many parks you've bagged, and how many acres those parks cover.</p>
+
+      <figure class="fig">
+        <svg class="dg" viewBox="0 0 360 300" role="img" aria-labelledby="dg-area-t dg-area-d">
+          <title id="dg-area-t">Three places combined into one area</title>
+          <desc id="dg-area-d">A map with three places, Home, Work and School. Each has a dashed circle showing its range. A solid outline wraps all three circles. Dots inside the circles are parks. Filled dots are bagged, open dots are not yet bagged.</desc>
+          <text class="mono" x="20" y="22">ALL PLACES</text>
+          <rect class="land" x="20" y="34" width="320" height="214" rx="12"/>
+          <path class="hull" d="M53.0 150.0 L53.6 141.4 L55.4 132.9 L58.4 124.8 L62.4 117.1 L67.5 110.1 L73.5 103.9 L80.3 98.6 L87.8 94.3 L95.8 91.0 L104.2 88.9 L233.2 66.3 L239.6 66.0 L246.0 66.7 L252.2 68.3 L258.2 70.7 L263.7 73.9 L268.8 77.8 L273.2 82.4 L277.0 87.6 L280.0 93.3 L282.2 99.3 L283.6 105.6 L284.0 112.0 L283.9 202.4 L283.3 207.1 L281.9 211.6 L280.0 216.0 L277.5 220.0 L274.5 223.6 L270.9 226.8 L267.0 229.4 L262.7 231.5 L258.2 233.0 L253.6 233.8 L248.8 234.0 L244.1 233.5 L100.0 210.2 L91.8 207.5 L84.0 203.7 L76.8 198.9 L70.4 193.1 L64.8 186.4 L60.3 179.1 L56.7 171.2 L54.4 162.9 L53.2 154.3 Z"/>
+          <circle class="ring" cx="115" cy="150" r="62"/>
+          <circle class="ring" cx="238" cy="112" r="46"/>
+          <circle class="ring" cx="250" cy="200" r="34"/>
+          <circle class="bagged" cx="92" cy="128" r="6"/>
+          <circle class="bagged" cx="140" cy="176" r="6"/>
+          <circle class="park" cx="80" cy="172" r="6"/>
+          <circle class="park" cx="150" cy="122" r="6"/>
+          <circle class="bagged" cx="222" cy="96" r="6"/>
+          <circle class="park" cx="262" cy="130" r="6"/>
+          <circle class="park" cx="236" cy="210" r="6"/>
+          <circle class="bagged" cx="262" cy="186" r="6"/>
+          <circle class="pin" cx="115" cy="150" r="4"/><text class="ink" x="123" y="154">Home</text>
+          <circle class="pin" cx="238" cy="112" r="4"/><text class="ink" x="246" y="116">Work</text>
+          <circle class="pin" cx="250" cy="200" r="4"/><text class="ink" x="208" y="204" text-anchor="end">School</text>
+          <circle class="bagged" cx="30" cy="272" r="6"/><text class="sm" x="42" y="276">bagged</text>
+          <circle class="park" cx="112" cy="272" r="6"/><text class="sm" x="124" y="276">to bag</text>
+          <line class="ring" x1="186" y1="272" x2="210" y2="272"/><text class="sm" x="216" y="276">each range</text>
+        </svg>
+        <figcaption>The outline wraps every range so you can see your whole area at a glance. Only parks inside a place's own range are counted.</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <p class="eyebrow">Collections</p>
+      <h2>Not just parks</h2>
+      <p>Switch collections to bag something else. Each one keeps its own list, its own range, and its own count.</p>
+      <div class="colls">
+        <div class="card"><h3><span class="i">🌳</span>Parks</h3><p>City parks, nature reserves, and optionally dog parks and public gardens.</p><span class="range">YOUR LIMIT PER PLACE</span></div>
+        <div class="card"><h3><span class="i">🛝</span>Playgrounds</h3><p>Every playground within walking distance. Good with kids.</p><span class="range">15 MIN WALK</span></div>
+        <div class="card"><h3><span class="i">🏕️</span>Campgrounds</h3><p>Campsites within a drive, for weekend trips.</p><span class="range">1 H DRIVE</span></div>
+        <div class="card"><h3><span class="i">🔭</span>Viewpoints</h3><p>Lookouts and overlooks worth the stop.</p><span class="range">1 H DRIVE</span></div>
+        <div class="card"><h3><span class="i">🏞️</span>State and national</h3><p>State parks, beaches, recreation areas and national parks.</p><span class="range">3 H DRIVE</span></div>
+        <div class="card"><h3><span class="i">🏖️</span>Beaches</h3><p>Each beach gets a card: where it is, restrooms, showers and lifeguards, nearby surf spots, parking and food, and how busy it tends to be.</p><span class="range">1 H DRIVE</span></div>
+      </div>
+      <p style="margin-top:12px">How busy a beach is comes from what's nearby: places to eat, shops, piers and boardwalks. It's an estimate, not a live count. Ranges are defaults. Change them from 10 minutes on foot up to 4 hours by car.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Treasure</p>
+      <h2>Bury something for a stranger to find</h2>
+      <p>Turn on Treasure and you can bury a virtual treasure at an exact spot in a park, with a short message. Anyone else playing stumbles on it when they stand right there. Walk into a park with treasure in it and the app tells you so, then gets warmer as you get closer.</p>
+      <p>Treasure is opt in, because buried treasure is shared with other players through Apple's iCloud. It can only be buried inside parks, never at home, and nobody sees who buried it.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Lists</p>
+      <h2>Visit soon, or consider</h2>
+      <p>Not ready to go yet? Put a park on Visit soon or Consider. You can also search for any park by name, even outside your ranges, and bag it or save it for later. Bagging a park takes it off both lists.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Your data</p>
+      <h2>Your places stay on your phone</h2>
+      <div class="card">
+        <p>There's no account and no sign-up. Your places, bags, ratings and notes are stored on your iPhone and synced through your own iCloud, so a new phone gets them back. You can export them as a file any time.</p>
+        <p>To find parks, the app sends a map location and a range to public OpenStreetMap servers. It doesn't send your name or anything that identifies you. There are no analytics, no ads and no tracking, and the developer runs no servers and receives none of your data.</p>
+        <p><a href="privacy.html">Read the full privacy policy →</a></p>
+      </div>
+    </section>
+
+    <section>
+      <p class="eyebrow">Good to know</p>
+      <h2>Estimates and map data</h2>
+      <p>Travel times are estimates from straight-line distance, with an allowance for roads. They're good for comparing parks, not for planning to the minute.</p>
+      <p>Park data comes from OpenStreetMap, which volunteers keep up to date. Some areas are mapped better than others. If a park is missing, search for it by name and add it yourself.</p>
+    </section>
+
+    <section>
+      <p class="eyebrow">Support</p>
+      <h2>Something wrong, or something missing?</h2>
+      <p>Questions, bug reports, and parks that don't show up all go to the same place:</p>
+      <p><a href="mailto:support@parkbagger.app">support@parkbagger.app</a>. Write and I'll see it.</p>
+      <p class="get"><span class="soon">Coming soon to the App Store</span></p>
+      <p>Requires an iPhone running iOS 17 or later.</p>
+    </section>
+
+  </div>
+</main>
+
+<div class="wrap">
+  <footer>
+    <a href="privacy.html">Privacy</a>
+    <a href="mailto:support@parkbagger.app">Support</a>
+    <span>Park Bagger</span>
+    <p class="note">Map and park data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors.</p>
+  </footer>
+</div>
+
+</body>
+</html>
